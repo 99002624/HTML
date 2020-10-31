@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+
+    </style>
+    <script>
+
+        function validate(){
+            var name=document.getElementById("usname").value;
+            var city = document.getElementById("city").value;
+            document.getElementById("mydiv").innerHTML="welcomw"+name
+         document.write(name);
+            // document.write(city);
+        }
+
+    </script>
+</head>
+<body>
+    <h1>NAME</h1>
+    <input type="text" id="usname" name="NAME">
+    <h1>CITY</h1>
+    <input type="text" id="city" name="city">
+    <input type="button" value="Submit" onclick="validate()">
+    <div id='mydiv' style="background-color: aqua;">
+
+    </div>
+</body>
+</html>

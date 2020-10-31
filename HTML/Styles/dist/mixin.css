@@ -1,0 +1,20 @@
+p {
+  border: yellow solid 2px;
+  background-color: red;
+}
+
+h1 {
+  background-color: aqua;
+  letter-spacing: 3px;
+  color: green;
+  text-transform: uppercase;
+  text-transform: lowercase;
+}
+
+h2 {
+  background-color: aqua;
+  letter-spacing: 3px;
+  color: green;
+  text-transform: uppercase;
+  color: blue;
+}

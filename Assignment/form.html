@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,tr,td{
+            
+             border: 1px solid ;
+             border-color: crimson;
+            
+        }
+    </style>
+</head>
+<body>
+    <table>
+
+    <form action="first.html" method="POST" name="submit">
+       <tr> <td>Enter NAME </td>
+            <td><input type="text" name="name" id="n1"></td></tr>
+       <tr> <td>Enter PASSWORD </td>
+            <td><input type="password" name="password" id="pass1"></td></tr>
+        <tr><td>GENDER</td><td> <input type="radio" name="GENDER" id="idm" value="MALE">MALE
+                <input type="radio" name="GENDER" id="idf" value ="FEMALE"> FEMALE</td><br/></tr>
+        <tr>
+            <td>HOBBIES</td>
+        <td> <input type="checkbox" name="HOBBIES" id=0>sports <br>
+        <input type="checkbox" name="HOBBIES" id=1>reading <br>
+        <input type="checkbox" name="HOBBIES" id=2>indoor <br>
+        <input type="checkbox" name="HOBBIES" id=2>watching movies <br>
+        </td>
+        </tr>
+        <tr>
+        <td>SELECT  Language</td> 
+        <td><select name="sle"  id="s1">
+            <option value="cplus">CPLUSPLUS</option>
+            <option value="JAVA">JAVA</option>
+            <option value="ANDROID">ANDROID</option>
+            <option value="HTML">HTML</option>
+
+
+        </select>
+        </td>
+        </tr>
+       <tr> <td><input type="reset" value="reset">
+        </td>   
+        <br>
+        <td><input type="submit" value="submit"></td>
+        </tr>
+        
+    </form>
+</table>
+</body>
+</html>
